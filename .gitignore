@@ -1,0 +1,3 @@
+# Don't want to commit any object or executable files
+obj/
+bin/

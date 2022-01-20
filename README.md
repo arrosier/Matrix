@@ -1,0 +1,3 @@
+A Matrix class for C++. This is not intended to be used in any kind of production-level code; instead, this was written purely as a learning exercise. The code contained in this repository will not always be the best, safest way to do something. Copy it at your own risk.
+
+By default the included makefile does not attach debug symbols to the compiled object files. If you should ever need to debug this code for whatever reason simply run 'make debug' in the root directory. This will generate the object and executable files with the appropriate debug symbols and place them in the bin/debug/ directory.

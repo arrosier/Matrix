@@ -5,13 +5,13 @@ BIN_DIR = bin
 DEBUG_DIR = bin/debug
 
 # Release build settings
-EXE = $(BIN_DIR)/main
+EXE = $(BIN_DIR)/matrix
 SRC = $(wildcard $(SRC_DIR)/*.cpp)
 OBJ = $(patsubst $(SRC_DIR)/%.cpp, $(OBJ_DIR)/%.o, $(SRC))
 CXXFLAGS = -Wall -I $(SRC_DIR) -MMD -MP
 
 # Debug build settings
-DEBUG_EXE = $(DEBUG_DIR)/main
+DEBUG_EXE = $(DEBUG_DIR)/matrix
 DEBUG_OBJ = $(patsubst $(SRC_DIR)/%.cpp, $(DEBUG_DIR)/%.o, $(SRC))
 DEBUG_FLAGS = -I $(SRC_DIR) -g
 
